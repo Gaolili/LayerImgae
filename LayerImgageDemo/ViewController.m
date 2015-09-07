@@ -19,11 +19,7 @@
     [super viewDidLoad];
     LayerImageView * layerImage = [[LayerImageView alloc]initWithFrame:CGRectMake(50, 100, 200, 100)];
     layerImage.mainImage =[UIImage imageNamed:@"centerImg"];
-    layerImage.arcColor =[UIColor orangeColor];
-    layerImage.arcPoint = CGPointMake(200, 0);
-    layerImage.radius = 50;
-    layerImage.titles = @"早教";
-    layerImage.titlesFont = [UIFont systemFontOfSize:16];
+    layerImage.shapeImage =[UIImage imageNamed:@"100_1"];
     [self.view addSubview:layerImage];
     
 }
